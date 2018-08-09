@@ -1,6 +1,10 @@
 # Self-Attention GAN for NON-CUDA / NON-GPU USER in Pytorch (i talking about code )#####
 
 MUST CHECKOUT LAST BELOWS POINT IT MAY BE VERY USEFUL FOR YOU.............
+
+
+
+
 **[Han Zhang, Ian Goodfellow, Dimitris Metaxas and Augustus Odena, "Self-Attention Generative Adversarial Networks." arXiv preprint arXiv:1805.08318 (2018)](https://arxiv.org/abs/1805.08318).**
 
 ## Meta overview
@@ -70,6 +74,9 @@ or
 $ cd samples/sagan_lsun
 
 ```
+
+SOME IMPORTANT POINTS
+
 1.  Samples generated every 10(in parent file its 100) iterations are located. The rate            of sampling could be controlled via --sample_step (ex, --sample_step 10).
 
 2.  #code->> parser.add_argument('--total_step', type=int, default=100, help='how many times to update the generator')  which are used in 
@@ -80,7 +87,7 @@ it originally is default =1000000, so i change it default=100 that  its possible
 
 person which have not GPU .
 
-3.In This code i removed cuda because a new coder or non-coder or low middle class 
+3. In This code i removed cuda because a new coder or non-coder or low middle class 
 
 people have not basically have'nt afford GPU so they 
 
@@ -88,7 +95,7 @@ also experience without gpu and seen what are the result or changes or inference
 
 come after train and learn a lot.
 
-4.I do some chnges like removal of Cuda because we require GPU (which are costly but 
+4. I do some chnges like removal of Cuda because we require GPU (which are costly but 
 
 more effective and give more speed of our system and train a lot more faster than CPU 
 
