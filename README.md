@@ -131,7 +131,7 @@ originated for research purpose for new model comes and easily deploy and use an
 
 the result/INference.
  
- #INFERENCE
+ #INFERENCE---------------------------------------------------------------------------------
 
 Inference means estimating the values of some (usually hidden random) variable given some observation.
 
