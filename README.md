@@ -130,3 +130,31 @@ torch framework comes from  #lua progamming language# basically which are mainly
 originated for research purpose for new model comes and easily deploy and use and find 
 
 the result/INference.
+
+#INFERNECE
+
+Inference means estimating the values of some (usually hidden random) variable given some observation.
+
+ i think there isn’t much of a difference (at least conceptually) between infernce and training.
+ 
+ Deep learning is revolutionizing many areas of machine perception, with the potential to impact the everyday experience of 
+ 
+ people everywhere. On a high level, working with deep neural networks is a two-stage process: First, a neural network is 
+ 
+ trained: its parameters are determined using labeled examples of inputs and desired output. Then, the network is deployed to run 
+ 
+ inference, using its previously trained parameters to classify, recognize and process unknown inputs.
+ 
+ https://devblogs.nvidia.com/wp-content/uploads/2015/08/training_inference1.png
+ 
+ Deep Neural Network Training vs. Inference
+
+Figure 1: Deep learning training compared to inference. In training, many inputs, often in large batches, are used to train a 
+
+deep neural network. In inference, the trained network is used to discover information within new inputs that are fed through the 
+
+network in smaller batches.
+
+https://devblogs.nvidia.com/inference-next-step-gpu-accelerated-deep-learning/
+
+https://www.quora.com/What-is-the-difference-between-inference-and-prediction-in-machine-learning
