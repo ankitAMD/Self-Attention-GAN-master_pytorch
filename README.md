@@ -130,8 +130,8 @@ torch framework comes from  #lua progamming language# basically which are mainly
 originated for research purpose for new model comes and easily deploy and use and find 
 
 the result/INference.
-
-#INFERNECE
+ 
+ #INFERENCE
 
 Inference means estimating the values of some (usually hidden random) variable given some observation.
 
